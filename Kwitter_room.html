@@ -1,0 +1,40 @@
+<html><head>
+	<title>Kwitter Room</title>
+<script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.IsloGm5DHq0.O/m=gapi_iframes/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCNLqLj-f3R5mIaRCoBH1ZffQdA_eQ/cb=gapi.loaded_0" async=""></script><script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&amp;display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="kwitter.css">
+
+<script type="text/javascript" charset="UTF-8" src="https://apis.google.com/js/api.js?onload=__iframefcb672362" gapi_processed="true"></script></head>
+<body>
+<div class="container">
+<button id="logout" class="glyphicon glyphicon-log-out btn btn-link" style="background-color: rgb(156, 70, 70); border-radius: 20px;" onclick="logout()">Logout</button>
+	<center>
+		<h1 class="header">	
+			Chat Box
+			<sup>
+				<img src="	https://balakrishnan11.github.io/Project-95/m2.png">
+			</sup>
+		</h1>
+		<h3 class="color_white" id="welcome_user_name" style="text-decoration: underline;">Welcome!</h3>
+		<div class="form-group input_div_room_page">
+			<label>#Add Room:</label>
+			<input type="text" id="room_name" class="form-control" placeholder="#Room Name" style="color: tomato; font-weight: bold;">
+		</div>
+		<button class="btn btn-link" onclick="addroom()" style="background-color: green; border-radius: 20px; color: yellow;">#Add Room</button>
+		<h3 class="color_white">#TRENDINGROOMS</h3>
+	<div id="output"></div>
+	</center>
+</div>
+<script src="kwitter_room.js"></script>
+
+<iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" tabindex="0" vspace="0" width="100%" id="I0_1639893476547" name="I0_1639893476547" src="https://project-93-letschat-web-app-1.firebaseapp.com/__/auth/iframe?apiKey=AIzaSyC5kMZ7wvJpLAT9u7Z8YBKV59XjF-aqqRE&amp;appName=%5BDEFAULT%5D&amp;v=3.1.0&amp;usegapi=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.IsloGm5DHq0.O%2Fam%3DAQ%2Fd%3D1%2Frs%3DAGLTcCNLqLj-f3R5mIaRCoBH1ZffQdA_eQ%2Fm%3D__features__#id=I0_1639893476547&amp;_gfid=I0_1639893476547&amp;parent=https%3A%2F%2Fbalakrishnan11.github.io&amp;pfname=&amp;rpctoken=14947185" style="position: absolute; top: -100px; width: 1px; height: 1px;"></iframe></body></html>
